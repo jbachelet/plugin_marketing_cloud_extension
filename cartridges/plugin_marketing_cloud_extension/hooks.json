@@ -1,0 +1,16 @@
+{
+	"hooks": [
+		{
+		  "name": "app.communication.handler.registerHandler",
+		  "script": "~/cartridge/scripts/communication/handler"
+		},
+		{
+		  "name": "app.customer.email",
+		  "script": "~/cartridge/scripts/hookProxy/emailProxy"
+		},
+		{
+			"name": "app.communication.order.cancelled",
+			"script": "~/cartridge/scripts/communication/order"
+		}
+	]
+}
